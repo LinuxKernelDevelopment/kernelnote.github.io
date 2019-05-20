@@ -231,3 +231,5 @@ correspondingly. For a single queue device driver, It will call
 q-&gt;mq\_ops-&gt;complete will be invoked. The
 \_\_blk\_complete\_request will trigger the BLOCK\_SOFTIRQ on
 corresponding cpu which the request was served.
+
+[back](./)
